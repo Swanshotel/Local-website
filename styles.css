@@ -52,17 +52,23 @@ body {text-align: center;
   
   .main-body{margin: auto;}
   
-  
+  .para{margin: 1% -10%;
+    font-family:'IBM Plex Sans';
+    text-transform: capitalize;
+    text-align: justify;
+    box-sizing: initial; 
+
+  }
   
   .card-group{text-align-last: center;}
   
   
   
-  @media (max-width: 750px){
+  @media (max-width: 900px){
     p{font-size: 1.25rem;
     line-height: 1.25;}
   }
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 600px) {
     .section-center {
       width: 95vw;}
     }
@@ -78,7 +84,3 @@ body {text-align: center;
   .out-para{text-align: center; font-weight: bold;}
   
   .rest-para{text-align: center;font-weight: bold;}
-
-.para{font-size: 1.1rem;
-text-align: center;
-margin: 2%;}
