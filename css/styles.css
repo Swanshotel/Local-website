@@ -52,23 +52,24 @@ body {text-align: center;
   
   .main-body{margin: auto;}
   
-  .para{margin: 2% 23%;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 1.1rem;
-  padding: 1% 3%;
-  border-radius: 2px;
+  .para{margin: 1% -10%;
+    font-family:'IBM Plex Sans';
+    text-transform: capitalize;
+    text-align: justify;
+    box-sizing: initial; 
+    font-weight: bold;
+
   }
   
   .card-group{text-align-last: center;}
   
   
   
-  @media (max-width: 750px){
+  @media (max-width: 900px){
     p{font-size: 1.25rem;
     line-height: 1.25;}
   }
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 600px) {
     .section-center {
       width: 95vw;}
     }
