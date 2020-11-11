@@ -28,6 +28,7 @@ body {text-align: center;
   h1 {color: black;}
   h2 { font-family: 'Lobster Two', cursive; text-align: center;}
   h3 {font-family: 'Antic Slab', serif;}
+  h5{color: cornflowerblue;}
   
   
   pre {font-family: 'Lobster Two';
@@ -57,6 +58,7 @@ body {text-align: center;
     text-transform: capitalize;
     text-align: justify;
     box-sizing: initial; 
+    font-weight: bold;
 
   }
   
@@ -72,15 +74,28 @@ body {text-align: center;
     .section-center {
       width: 95vw;}
     }
-  
-  .indoor-p{text-align: left;
-  font-size: 1rem;
-  }
-  .indo-para{margin: 1% 15%;
-  border-width: thick;
-  border-color: black;}
-  
-  .outdoor-p{text-align: left;font-size: 1rem;}
-  .out-para{text-align: center; font-weight: bold;}
-  
+   
+    
   .rest-para{text-align: center;font-weight: bold;}
+
+  .indo-pic{border-radius: 30px;
+  background-origin: padding-box;}
+ 
+  .indo-text{text-align: center;
+    margin: 1% 5%;
+    font-family:'IBM Plex Sans';
+    text-transform: capitalize;
+     box-sizing: initial; 
+    font-weight: bold;
+  font-size: .95rem;}
+
+  .indoor-p{font-size: .95rem;}
+
+  .out-pic{border-radius: 30px;}
+  .out-text{text-align: center;
+    margin: 1% 5%;
+    font-family:'IBM Plex Sans';
+    text-transform: capitalize;
+     box-sizing: initial; 
+    font-weight: bold;
+  font-size: .95rem;}
